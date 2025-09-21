@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Responsive Marca</title>
+    <title>MARCA</title>
   </head>
   <body>
     
@@ -27,64 +27,52 @@
 <!-- Header main (oculto en sm y md, visible en lg+) -->
 <div class="container-fluid py-2 d-none d-lg-block">
   <div class="row align-items-center">
-    
-<!-- Bloque izquierdo con líneas verticales grises -->
-<div class="col-lg-4 d-flex align-items-center">
-  <!-- Primera opción -->
-  <div class="d-flex align-items-center pe-3">
-    <a href="#"><img src="laportadedehoy.jpg" alt="La portada de hoy" height="25"></a>
-    <div class="ms-2">
-      <p class="mb-0">La Portada <br> De hoy</p>
+
+    <div class="col-lg-4 d-flex align-items-center">
+      <div class="d-flex align-items-center pe-3">
+        <a href="#"><img src="headermain/laportadedehoy.jpg" alt="La portada de hoy" height="25"></a>
+        <div class="ms-2">
+          <p class="mb-0">La Portada <br> De hoy</p>
+        </div>
+      </div>
+
+      <div class="border-start border-secondary mx-1 d-none d-lg-block" style="height:40px;"></div>
+
+      <div class="d-flex align-items-center px-1">
+        <a href="#"><img src="headermain/radioMarca.png" alt="Radio Marca" height="25"></a>
+        <div class="ms-2">
+          <p class="mb-0">Radio <br> Marca</p>
+        </div>
+      </div>
+
+      <div class="border-start border-secondary mx-1 d-none d-lg-block" style="height:40px;"></div>
+
+      <div class="d-flex align-items-center ps-3">
+        <a href="#"><img src="headermain/marcafantasy.png" alt="LaLiga FM" height="25"></a>
+        <div class="ms-2">
+          <p class="mb-0">LaLiga <br> Fantasy Marca</p>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <!-- Separador gris -->
-  <div class="border-start border-secondary mx-1 d-none d-lg-block" style="height:40px;"></div>
-
-  <!-- Segunda opción -->
-  <div class="d-flex align-items-center px-1">
-    <a href="#"><img src="radioMarca.png" alt="Radio Marca" height="25"></a>
-    <div class="ms-2">
-      <p class="mb-0">Radio <br> Marca</p>
-    </div>
-  </div>
-
-  <!-- Separador gris -->
-  <div class="border-start border-secondary mx-1 d-none d-lg-block" style="height:40px;"></div>
-
-  <!-- Tercera opción -->
-  <div class="d-flex align-items-center ps-3">
-    <a href="#"><img src="marcafantasy.png" alt="LaLiga FM" height="25"></a>
-    <div class="ms-2">
-      <p class="mb-0">LaLiga <br> Fantasy Marca</p>
-    </div>
-  </div>
-</div>
-
-    <!-- Bloque central (logo rojo) -->
     <div class="col-lg-4 text-center">
-      <a href="#"><img src="MARCA.png" alt="Marca" height="60"></a>
+      <a href="#"><img src="headermain/MARCA.png" alt="Marca" height="60"></a>
     </div>
-    
-    <!-- Bloque derecho -->
-    <div class="col-lg-4 d-flex justify-content-end align-items-center gap-2">
-<!-- Idioma -->
-<div class="dropdown">
-  <button class="btn btn-light border rounded-pill dropdown-toggle" 
-          type="button" id="idiomaMenu" data-bs-toggle="dropdown" aria-expanded="false">
-    ES
-  </button>
-  <ul class="dropdown-menu dropdown-menu-end position-absolute zindex-tooltip" aria-labelledby="idiomaMenu">
-    <li><a class="dropdown-item" href="#">ES</a></li>
-    <li><a class="dropdown-item" href="#">EN</a></li>
-    <li><a class="dropdown-item" href="#">FR</a></li>
-    <li><a class="dropdown-item" href="#">IT</a></li>
-  </ul>
-</div>
 
-      <!-- Club Marca -->
+    <div class="col-lg-4 d-flex justify-content-end align-items-center gap-2">
+      <div class="dropdown" style="position:relative; z-index: 1050;">
+        <button class="btn btn-light border rounded-pill dropdown-toggle"
+                type="button" id="idiomaMenu" data-bs-toggle="dropdown" aria-expanded="false">
+          ES
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end position-absolute z-3" aria-labelledby="idiomaMenu">
+          <li><a class="dropdown-item" href="#">ES</a></li>
+          <li><a class="dropdown-item" href="#">EN</a></li>
+          <li><a class="dropdown-item" href="#">FR</a></li>
+          <li><a class="dropdown-item" href="#">IT</a></li>
+        </ul>
+      </div>
       <button class="club-btn border rounded-pill">CLUB MARCA</button>
-      <!-- Login -->
       <button class="login-btn border rounded-pill">Iniciar sesión</button>
     </div>
   </div>
@@ -93,13 +81,10 @@
 <!-- Navbar con hamburguesa -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
   <div class="container d-flex align-items-center">
-    <a class="navbar-brand" href="#"><img src="logomarcablanco.png" alt="logo" height="40"></a>
-    <!-- Botón hamburguesa -->
+    <a class="navbar-brand" href="#"><img src="elementosNAV/logomarcablanco.png" alt="logo" height="40"></a>
     <button class="navbar-toggler d-lg-none ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <!-- Menú -->
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="mx-auto navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
 
@@ -280,98 +265,95 @@
   </div>
 </nav>
 
+<!-- Equipos -->
 <div class="col-12 border-top border-bottom py-1">
   <div class="container d-flex flex-wrap justify-content-center gap-3 overflow-auto d-none d-md-flex">
-    <!-- Cada equipo como botón/enlace -->
     <a href="#" class="btn btn-light p-1">
-      <img src="milan.png" alt="Equipo 1" height="27">
+      <img src="equipos/milan.png" alt="Equipo 1" height="27">
     </a>
 
     <a href="#" class="btn btn-light p-1">
-      <img src="paris.png" alt="Equipo 2" height="27">
+      <img src="equipos/paris.png" alt="Equipo 2" height="27">
     </a>
 
     <a href="#" class="btn btn-light p-1">
-      <img src="MX.png" alt="Equipo 3" height="27">
+      <img src="equipos/MX.png" alt="Equipo 3" height="27">
     </a>
 
     <a href="#" class="btn btn-light p-1">
-      <img src="barca.png" alt="Equipo 4" height="27">
+      <img src="equipos/barca.png" alt="Equipo 4" height="27">
     </a>
 
     <a href="#" class="btn btn-light p-1">
-      <img src="equipo5.png" alt="Equipo 5" height="27">
+      <img src="equipos/equipo5.png" alt="Equipo 5" height="27">
     </a>
 
     <a href="#" class="btn btn-light p-1">
-      <img src="realsociedad.png" alt="Equipo 6" height="27">
+      <img src="equipos/realsociedad.png" alt="Equipo 6" height="27">
     </a>
 
     <a href="#" class="btn btn-light p-1">
-      <img src="intermiami.png" alt="Equipo 7" height="27">
+      <img src="equipos/intermiami.png" alt="Equipo 7" height="27">
     </a>
 
     <a href="#" class="btn btn-light p-1">
-      <img src="elmadrid.png" alt="Equipo 8" height="27">
+      <img src="equipos/elmadrid.png" alt="Equipo 8" height="27">
     </a>
 
         <a href="#" class="btn btn-light p-1">
-      <img src="salzburg.png" alt="Equipo 9"height="27">
+      <img src="equipos/salzburg.png" alt="Equipo 9"height="27">
     </a>
 
         <a href="#" class="btn btn-light p-1">
-      <img src="chapecoense.png" alt="Equipo 10"height="27">
+      <img src="equipos/salzburg.png" alt="Equipo 10"height="27">
     </a>
 
             <a href="#" class="btn btn-light p-1">
-      <img src="pumas.png" alt="Equipo 11"height="27">
+      <img src="equipos/pumas.png" alt="Equipo 11"height="27">
     </a>
 
                 <a href="#" class="btn btn-light p-1">
-      <img src="tiburones de veracruz.png" alt="Equipo 12"height="27">
+      <img src="equipos/tiburones de veracruz.png" alt="Equipo 12"height="27">
     </a>
 
-    
                 <a href="#" class="btn btn-light p-1">
-      <img src="porcinos.png" alt="Equipo 13"height="27">
+      <img src="equipos/porcinos.png" alt="Equipo 13"height="27">
     </a>
 
                     <a href="#" class="btn btn-light p-1">
-      <img src="monarcamorelia.png" alt="Equipo 15"height="27">
+      <img src="equipos/monarcamorelia.png" alt="Equipo 15"height="27">
     </a>
                         <a href="#" class="btn btn-light p-1">
-      <img src="Club_Necaxa_Logo.png" alt="Equipo 16"height="27">
+      <img src="equipos/Club_Necaxa_Logo.png" alt="Equipo 16"height="27">
     </a>
 
                             <a href="#" class="btn btn-light p-1">
-      <img src="chapecoense.png" alt="Equipo 17"height="27">
+      <img src="equipos/chapecoense.png" alt="Equipo 17"height="27">
     </a>
 
                                 <a href="#" class="btn btn-light p-1">
-      <img src="benfica.png" alt="Equipo 18"height="27">
+      <img src="equipos/benfica.png" alt="Equipo 18"height="27">
     </a>
 
                                     <a href="#" class="btn btn-light p-1">
-      <img src="alnassr.png" alt="Equipo 18"height="27">
+      <img src="equipos/alnassr.png" alt="Equipo 18"height="27">
     </a>
   </div>
 </div>
 
-<!-- Matches Section -->
+<!-- partidos seccion -->
 <div class="mb-3 container">
   <div class="pt-3 mb-0 py-1">
-    <img src="CALIENTEMX.PNG" class="img-fluid w-100" style="max-height:50px; object-fit:contain; display:block;" alt="Caliente.mx">
+    <img src="matches/CALIENTEMX.PNG" class="img-fluid w-100" style="max-height:50px; object-fit:contain; display:block;" alt="Caliente.mx">
   </div>
 
   <div id="matchesCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-
-      <!-- Partido 1: Manchester vs Benfica -->
       <div class="carousel-item active">
         <div class="card mx-auto" style="max-width:300px; height:100px;">
           <div class="card-body d-flex justify-content-between align-items-center text-center p-2">
             <div class="d-flex flex-column align-items-center">
-              <img src="manchester.png" class="img-fluid" style="max-height:35px;" alt="Manchester">
+              <img src="matches/manchester.png" class="img-fluid" style="max-height:35px;" alt="Manchester">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Manchester</h6>
             </div>
             <div class="d-flex flex-column align-items-center">
@@ -380,19 +362,17 @@
               <p class="mb-0 small" style="font-size:0.6rem;">Old Trafford</p>
             </div>
             <div class="d-flex flex-column align-items-center">
-              <img src="benfica.png" class="img-fluid" style="max-height:35px;" alt="Benfica">
+              <img src="equipos/benfica.png" class="img-fluid" style="max-height:35px;" alt="Benfica">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Benfica</h6>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Partido 2: Club América vs Real Madrid -->
       <div class="carousel-item">
         <div class="card mx-auto" style="max-width:300px; height:100px;">
           <div class="card-body d-flex justify-content-between align-items-center text-center p-2">
             <div class="d-flex flex-column align-items-center">
-              <img src="CLUBAMERICA.png" class="img-fluid" style="max-height:35px;" alt="Club América">
+              <img src="matches/CLUBAMERICA.png" class="img-fluid" style="max-height:35px;" alt="Club América">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Club América</h6>
             </div>
             <div class="d-flex flex-column align-items-center">
@@ -401,19 +381,17 @@
               <p class="mb-0 small" style="font-size:0.6rem;">Estadio Azteca</p>
             </div>
             <div class="d-flex flex-column align-items-center">
-              <img src="elmadrid.png" class="img-fluid" style="max-height:35px;" alt="Real Madrid">
+              <img src="equipos/elmadrid.png" class="img-fluid" style="max-height:35px;" alt="Real Madrid">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Real Madrid</h6>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Partido 3: Chapecoense vs Manchester -->
       <div class="carousel-item">
         <div class="card mx-auto" style="max-width:300px; height:100px;">
           <div class="card-body d-flex justify-content-between align-items-center text-center p-2">
             <div class="d-flex flex-column align-items-center">
-              <img src="chapecoense.png" class="img-fluid" style="max-height:35px;" alt="Chapecoense">
+              <img src="equipos/chapecoense.png" class="img-fluid" style="max-height:35px;" alt="Chapecoense">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Chapecoense</h6>
             </div>
             <div class="d-flex flex-column align-items-center">
@@ -422,19 +400,17 @@
               <p class="mb-0 small" style="font-size:0.6rem;">Arena Condá</p>
             </div>
             <div class="d-flex flex-column align-items-center">
-              <img src="manchester.png" class="img-fluid" style="max-height:35px;" alt="Manchester">
+              <img src="matches/manchester.png" class="img-fluid" style="max-height:35px;" alt="Manchester">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Manchester</h6>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Partido 4: Inter Miami vs Al Nassr -->
       <div class="carousel-item">
         <div class="card mx-auto" style="max-width:300px; height:100px;">
           <div class="card-body d-flex justify-content-between align-items-center text-center p-2">
             <div class="d-flex flex-column align-items-center">
-              <img src="intermiami.png" class="img-fluid" style="max-height:35px;" alt="Inter Miami">
+              <img src="equipos/intermiami.png" class="img-fluid" style="max-height:35px;" alt="Inter Miami">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Inter Miami</h6>
             </div>
             <div class="d-flex flex-column align-items-center">
@@ -443,19 +419,17 @@
               <p class="mb-0 small" style="font-size:0.6rem;">DRV PNK Stadium</p>
             </div>
             <div class="d-flex flex-column align-items-center">
-              <img src="alnassr.png" class="img-fluid" style="max-height:35px;" alt="Al Nassr">
+              <img src="equipos/alnassr.png" class="img-fluid" style="max-height:35px;" alt="Al Nassr">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Al Nassr</h6>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Partido 5: Milan vs Pumas -->
       <div class="carousel-item">
         <div class="card mx-auto" style="max-width:300px; height:100px;">
           <div class="card-body d-flex justify-content-between align-items-center text-center p-2">
             <div class="d-flex flex-column align-items-center">
-              <img src="milan.png" class="img-fluid" style="max-height:35px;" alt="Milan">
+              <img src="equipos/milan.png" class="img-fluid" style="max-height:35px;" alt="Milan">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Milan</h6>
             </div>
             <div class="d-flex flex-column align-items-center">
@@ -464,19 +438,17 @@
               <p class="mb-0 small" style="font-size:0.6rem;">San Siro</p>
             </div>
             <div class="d-flex flex-column align-items-center">
-              <img src="pumas.png" class="img-fluid" style="max-height:35px;" alt="Pumas">
+              <img src="equipos/pumas.png" class="img-fluid" style="max-height:35px;" alt="Pumas">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Pumas</h6>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Partido 6: Salzburg vs Paris -->
       <div class="carousel-item">
         <div class="card mx-auto" style="max-width:300px; height:100px;">
           <div class="card-body d-flex justify-content-between align-items-center text-center p-2">
             <div class="d-flex flex-column align-items-center">
-              <img src="salzburg.png" class="img-fluid" style="max-height:35px;" alt="Salzburg">
+              <img src="equipos/salzburg.png" class="img-fluid" style="max-height:35px;" alt="Salzburg">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Salzburg</h6>
             </div>
             <div class="d-flex flex-column align-items-center">
@@ -485,19 +457,17 @@
               <p class="mb-0 small" style="font-size:0.6rem;">Red Bull Arena</p>
             </div>
             <div class="d-flex flex-column align-items-center">
-              <img src="paris.png" class="img-fluid" style="max-height:35px;" alt="Paris">
+              <img src="equipos/paris.png" class="img-fluid" style="max-height:35px;" alt="Paris">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Paris</h6>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Partido 7: Porcinos vs Manchester -->
       <div class="carousel-item">
         <div class="card mx-auto" style="max-width:300px; height:100px;">
           <div class="card-body d-flex justify-content-between align-items-center text-center p-2">
             <div class="d-flex flex-column align-items-center">
-              <img src="porcinos.png" class="img-fluid" style="max-height:35px;" alt="Porcinos">
+              <img src="equipos/porcinos.png" class="img-fluid" style="max-height:35px;" alt="Porcinos">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Porcinos</h6>
             </div>
             <div class="d-flex flex-column align-items-center">
@@ -506,7 +476,7 @@
               <p class="mb-0 small" style="font-size:0.6rem;">Estadio Porcino</p>
             </div>
             <div class="d-flex flex-column align-items-center">
-              <img src="manchester.png" class="img-fluid" style="max-height:35px;" alt="Manchester">
+              <img src="matches/manchester.png" class="img-fluid" style="max-height:35px;" alt="Manchester">
               <h6 class="mt-1 mb-0" style="font-size:0.8rem;">Manchester</h6>
             </div>
           </div>
@@ -528,78 +498,137 @@
   </div>
 </div>
 
-
-
+<!-- slider con anuncios -->
 <div class="container my-4">
-  <div class="row">
+  <div class="row g-3 align-items-stretch">
 
     <div class="col-lg-2 d-none d-lg-block">
       <div class="card h-100">
-        <img src="cards noticias/GIF1.gif" class="card-img-top" alt="AnuncioIzq">
+        <img src="cards noticias/GIF1.gif" class="card-img-top h-100 object-fit-cover" alt="AnuncioIzq">
       </div>
     </div>
 
     <div class="col-12 col-lg-8">
-      <div class="row">
-        <div class="col-12 col-md-8 mb-3">
-          <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="cards noticias/CARD1.PNG" class="d-block w-100 img-fluid" alt="Noticia1">
-                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 w-100 p-2">
-                  <h6 class="fw-bold mb-1">¡Los dejó vestidos y alborotados!</h6>
-                  <p class="mb-0 fw-bold small">Anthony Martial tenía preacuerdo con Pumas y prefirió fichar con Rayados</p>
+      <div class="row g-3 align-items-stretch">
+
+        <div class="col-12 col-md-8">
+          <div class="row g-3">
+
+            <div class="col-12">
+              <div id="newsCarousel-1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <div class="ratio ratio-4x3">
+                      <img src="cards noticias/CARD1.PNG" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia1">
+                    </div>
+                    <div class="carousel-caption bg-dark bg-opacity-50 text-white text-start p-2 bottom-0 start-0 end-0">
+                      <h6 class="fw-bold mb-1 small">¡Los dejó vestidos y alborotados!</h6>
+                      <p class="mb-0 fw-bold small">Anthony Martial tenía preacuerdo con Pumas y prefirió fichar con Rayados</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="ratio ratio-4x3">
+                      <img src="cards noticias/CARD2.PNG" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia2">
+                    </div>
+                    <div class="carousel-caption bg-dark bg-opacity-50 text-white text-start p-2 bottom-0 start-0 end-0">
+                      <h6 class="fw-bold mb-1 small">Lucas Ocampos comparte su experiencia con Martial</h6>
+                      <p class="mb-0 fw-bold small">El jugador argentino coincidió en dos equipos con el francés.</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="ratio ratio-4x3">
+                      <img src="cards noticias/CARD3.PNG" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia3">
+                    </div>
+                    <div class="carousel-caption bg-dark bg-opacity-50 text-white text-start p-2 bottom-0 start-0 end-0">
+                      <h6 class="fw-bold mb-1 small">Checo Pérez volverá a la pista tras el GP de Azerbaiyán</h6>
+                      <p class="mb-0 fw-bold small">Buscará recuperar forma física, mientras el equipo intentará sumar experiencia.</p>
+                    </div>
+                  </div>
+
                 </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel-1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel-1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
               </div>
-              <div class="carousel-item">
-                <img src="cards noticias/CARD2.PNG" class="d-block w-100 img-fluid" alt="Noticia2">
-                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 w-100 p-2">
-                  <h6 class="fw-bold mb-1">Lucas Ocampos comparte su experiencia con Martial</h6>
-                  <p class="mb-0 fw-bold small">El jugador argentino coincidió en dos equipos con el francés.</p>
+            </div>
+
+            <div class="col-6">
+              <div class="card h-100">
+                <div class="ratio ratio-4x3">
+                  <img src="cards noticias/CARD6.PNG" class="card-img-top object-fit-cover" alt="Noticia extra 1">
                 </div>
-              </div>
-              <div class="carousel-item">
-                <img src="cards noticias/CARD3.PNG" class="d-block w-100 img-fluid" alt="Noticia3">
-                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 w-100 p-2">
-                  <h6 class="fw-bold mb-1">Checo Pérez volverá a la pista tras el GP de Azerbaiyán</h6>
-                  <p class="mb-0 fw-bold small">Buscará recuperar forma física, mientras el equipo intentará sumar experiencia.</p>
+                <div class="card-body p-2 d-flex flex-column justify-content-between">
+                    <div>
+                        <h6 class="text-danger fw-bold mb-1">FÚTBOL</h6>
+                        <p class="card-text fw-bold small mb-1">El 16-5 con el que el PSG mete miedo a Europa.</p>
+                    </div>
+                    <a href="#" class="btn btn-link p-0 small align-self-start">💬 10</a>
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </button>
+            <div class="col-6">
+              <div class="card h-100">
+                <div class="ratio ratio-4x3">
+                  <img src="cards noticias/CARD7.PNG" class="card-img-top object-fit-cover" alt="Noticia extra 2">
+                </div>
+                <div class="card-body p-2 d-flex flex-column justify-content-between">
+                    <div>
+                        <h6 class="text-danger fw-bold mb-1">FÚTBOL</h6>
+                        <p class="card-text fw-bold small mb-1">El 16-5 con el que el PSG mete miedo a Europa.</p>
+                    </div>
+                    <a href="#" class="btn btn-link p-0 small align-self-start">💬 10</a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
-        <div class="col-12 col-md-4 mb-3 d-flex flex-column gap-3">
-          <div class="card">
-            <img src="cards noticias/CARD4.PNG" class="card-img-top" style="height:150px; object-fit:cover;" alt="Noticia4">
-            <div class="card-body py-2">
-              <h6 class="text-danger fw-bold mb-1">FÚTBOL</h6>
-              <p class="card-text fw-bold small mb-1">El 16-5 con el que el PSG mete miedo a Europa.</p>
-              <a href="#" class="btn btn-link p-0 small">💬 10</a>
+        <div class="col-12 col-md-4 d-flex flex-column gap-3">
+          <div class="card h-100 d-flex flex-column">
+            <div class="d-none d-md-block ratio ratio-4x3">
+              <img src="cards noticias/CARD4.PNG" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia4">
+            </div>
+            <div class="d-block d-md-none ratio ratio-21x9">
+              <img src="cards noticias/CARD4.PNG" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia4">
+            </div>
+            <div class="card-body mt-auto py-2 d-flex flex-column justify-content-between">
+              <div>
+                <h6 class="text-danger fw-bold mb-1">FÚTBOL</h6>
+                <p class="card-text fw-bold small mb-1">El 16-5 con el que el PSG mete miedo a Europa.</p>
+              </div>
+              <a href="#" class="btn btn-link p-0 small align-self-start">💬 10</a>
             </div>
           </div>
-          <div class="card">
-            <img src="cards noticias/CARD5.PNG" class="card-img-top" style="height:150px; object-fit:cover;" alt="Noticia5">
-            <div class="card-body py-2">
-              <h6 class="text-danger fw-bold mb-1">BALONCESTO</h6>
-              <p class="card-text fw-bold small mb-1">El Joventut de Ricky Rubio deja al Barça sin su primer título.</p>
-              <a href="#" class="btn btn-link p-0 small">💬 25</a>
+          <div class="card h-100 d-flex flex-column">
+            <div class="d-none d-md-block ratio ratio-4x3">
+              <img src="cards noticias/CARD5.PNG" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia5">
+            </div>
+            <div class="d-block d-md-none ratio ratio-21x9">
+              <img src="cards noticias/CARD5.PNG" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia5">
+            </div>
+            <div class="card-body mt-auto py-2 d-flex flex-column justify-content-between">
+              <div>
+                <h6 class="text-danger fw-bold mb-1">BALONCESTO</h6>
+                <p class="card-text fw-bold small mb-1">El Joventut de Ricky Rubio deja al Barça sin su primer título.</p>
+              </div>
+              <a href="#" class="btn btn-link p-0 small align-self-start">💬 25</a>
             </div>
           </div>
         </div>
-
       </div>
     </div>
 
     <div class="col-lg-2 d-none d-lg-block">
       <div class="card h-100">
-        <img src="cards noticias/GIF2.gif" class="card-img-top" alt="AnuncioDer">
+        <img src="cards noticias/GIF2.gif" class="card-img-top h-100 object-fit-cover" alt="AnuncioDer">
       </div>
     </div>
 
@@ -609,9 +638,9 @@
 <!-- set1 tres cards sencillas -->
 <div class="container my-4">
   <div class="row g-3">
-    <div class="col-md-4 col-sm-6 col-12">
+    <div class="col-lg-4 col-md-6 col-12">
       <div class="card h-100 d-flex flex-row">
-        <img src="img1.jpg" class="img-fluid" style="width: 40%; object-fit: cover;" alt="Noticia 1">
+        <img src="cards noticias/cruz azul.jpeg" class="img-fluid" style="width: 40%; object-fit: cover;" alt="Noticia 1">
         <div class="d-flex flex-column justify-content-between w-100">
           <div class="card-body p-2">
             <small class="text-danger fw-bold d-block mb-1">LIGA MX</small>
@@ -627,9 +656,9 @@
       </div>
     </div>
 
-    <div class="col-md-4 col-sm-6 col-12">
+    <div class="col-lg-4 col-md-6 col-12">
       <div class="card h-100 d-flex flex-row">
-        <img src="img2.jpg" class="img-fluid" style="width: 40%; object-fit: cover;" alt="Noticia 2">
+        <img src="cards noticias/gabmilito.jpg" class="img-fluid" style="width: 40%; object-fit: cover;" alt="Noticia 2">
         <div class="d-flex flex-column justify-content-between w-100">
           <div class="card-body p-2">
             <small class="text-danger fw-bold d-block mb-1">LIGA MX</small>
@@ -644,9 +673,10 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6 col-12">
+
+    <div class="col-lg-4 col-md-12 col-12">
       <div class="card h-100 d-flex flex-row">
-        <img src="img3.jpg" class="img-fluid" style="width: 40%; object-fit: cover;" alt="Noticia 3">
+        <img src="cards noticias/isackha.jpg" class="img-fluid" style="width: 40%; object-fit: cover;" alt="Noticia 3">
         <div class="d-flex flex-column justify-content-between w-100">
           <div class="card-body p-2">
             <small class="text-danger fw-bold d-block mb-1">F1</small>
@@ -671,8 +701,7 @@
       <div class="card h-100">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="boxing.jpg" class="img-fluid rounded-start w-100 h-100" 
-                 style="object-fit: cover;" alt="Noticia Larga">
+            <img src="cards noticias/boxing.jpg" class="img-fluid rounded-start w-100 h-100 object-fit-cover" alt="Noticia Larga">
           </div>
           <div class="col-md-8 d-flex">
             <div class="card-body d-flex flex-column justify-content-between">
@@ -689,11 +718,9 @@
       </div>
     </div>
 
-    <!-- Tres Cards Abajo -->
     <div class="col-12 col-sm-6 col-md-4 mb-3">
       <div class="card h-100">
-        <img src="hockey sobre hielo.jpg" class="card-img-top" 
-             style="object-fit: cover; height: 200px;" alt="Noticia 1">
+        <img src="cards noticias/hockey sobre hielo.jpg" class="card-img-top object-fit-cover" alt="Noticia 1">
         <div class="card-body d-flex flex-column justify-content-between">
           <div>
             <h6 class="text-danger fw-bold">Hockey sobre hielo</h6>
@@ -708,8 +735,7 @@
 
     <div class="col-12 col-sm-6 col-md-4 mb-3">
       <div class="card h-100">
-        <img src="fucho.jpeg" class="card-img-top" 
-             style="object-fit: cover; height: 200px;" alt="Noticia 2">
+        <img src="cards noticias/fucho.jpeg" class="card-img-top object-fit-cover" alt="Noticia 2">
         <div class="card-body d-flex flex-column justify-content-between">
           <div>
             <h6 class="text-danger fw-bold">Futbol</h6>
@@ -722,10 +748,9 @@
       </div>
     </div>
 
-    <div class="col-12 col-sm-6 col-md-4 mb-3 mx-auto">
+    <div class="col-12 col-sm-6 col-md-4 mb-3">
       <div class="card h-100">
-        <img src="tennis.jpg" class="card-img-top" 
-             style="object-fit: cover; height: 200px;" alt="Noticia 3">
+        <img src="cards noticias/tennis.jpg" class="card-img-top object-fit-cover" alt="Noticia 3">
         <div class="card-body d-flex flex-column justify-content-between">
           <div>
             <h6 class="text-danger fw-bold">Tennis</h6>
@@ -742,90 +767,109 @@
 
 <!-- mosaicos con anuncion-->
 <div class="container my-4">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="fs-4 fw-bold">Otras Noticias</h2>
+      <hr class="mb-3">
+    </div>
+  </div>
+
   <div class="row g-3">
     <div class="col-lg-9 col-12">
       <div class="row g-3">
         <div class="col-md-4 col-sm-6 col-12">
           <div class="card h-100">
-            <img src="real_madrid.jpg" class="card-img-top" alt="Noticia 1">
+            <div class="ratio ratio-16x9">
+              <img src="cards noticias/xabialon.jpg" class="card-img-top object-fit-cover" alt="Noticia 1">
+            </div>
             <div class="card-body d-flex flex-column justify-content-between">
               <div>
                 <small class="text-danger fw-bold d-block mb-1">REAL MADRID</small>
-                <p class="fw-bold mb-2">Xabi Alonso hace debutar a dos ‘fichajes’ de lujo</p>
+                <p class="fw-bold mb-2">Xabi Alonso hace debutar a dos "fichajes" de lujo</p>
               </div>
-              <a href="#" class="btn btn-link p-0 small">💬 6</a>
+              <a href="#" class="btn btn-link p-0 small align-self-start">💬 6</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-12">
-          <div class="card h-100 text-white" style="background:#111;">
-            <img src="leganes.jpg" class="card-img-top" alt="Leganés vs Las Palmas">
+          <div class="card h-100 text-white bg-dark">
+            <div class="ratio ratio-16x9">
+              <img src="cards noticias/leganspal.jpg" class="card-img-top object-fit-cover" alt="Leganés vs Las Palmas">
+            </div>
             <div class="card-body d-flex flex-column justify-content-between">
               <div>
                 <small class="fw-bold text-warning">LEGANÉS 0-0 LAS PALMAS</small>
                 <p class="fw-bold mb-1">Anulado el gol del Leganés</p>
                 <small>⏱ 1ª parte | LaLiga Hypermotion</small>
-                <div class="d-flex justify-content-between mt-1">
-                  <small>Leganés 0</small>
-                  <small>Las Palmas 0</small>
-                </div>
+              </div>
+              <div class="d-flex justify-content-between mt-1">
+                <small>Leganés 0</small>
+                <small>Las Palmas 0</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-12">
-          <div class="card h-100 text-white" style="background:#111;">
-            <img src="andorra.jpg" class="card-img-top" alt="Andorra vs Mirandés">
+          <div class="card h-100 text-white bg-dark">
+            <div class="ratio ratio-16x9">
+              <img src="cards noticias/ando.jpeg" class="card-img-top object-fit-cover" alt="Andorra vs Mirandés">
+            </div>
             <div class="card-body d-flex flex-column justify-content-between">
               <div>
                 <small class="fw-bold text-warning">ANDORRA 1-1 MIRANDÉS</small>
-                <p class="fw-bold mb-1">Andorra – Mirandés, en directo</p>
+                <p class="fw-bold mb-1">Andorra - Mirandés, en directo</p>
                 <small>⏱ 1ª parte | LaLiga Hypermotion</small>
-                <div class="d-flex justify-content-between mt-1">
-                  <small>Andorra 1</small>
-                  <small>Mirandés 1</small>
-                </div>
+              </div>
+              <div class="d-flex justify-content-between mt-1">
+                <small>Andorra 1</small>
+                <small>Mirandés 1</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-12">
-          <div class="card h-100 text-white" style="background:#111;">
-            <img src="man_united.jpg" class="card-img-top" alt="Man United vs Chelsea">
+          <div class="card h-100 text-white bg-dark">
+            <div class="ratio ratio-16x9">
+              <img src="cards noticias/chelseaunite.jpg" class="card-img-top object-fit-cover" alt="Man United vs Chelsea">
+            </div>
             <div class="card-body d-flex flex-column justify-content-between">
               <div>
                 <small class="fw-bold text-warning">M. UNITED 2-0 CHELSEA</small>
                 <p class="fw-bold mb-1">Casemiro marca el segundo</p>
                 <small>⏱ 1ª parte | DAZN</small>
-                <div class="d-flex justify-content-between mt-1">
-                  <small>Man United 2</small>
-                  <small>Chelsea 0</small>
-                </div>
+              </div>
+              <div class="d-flex justify-content-between mt-1">
+                <small>Man United 2</small>
+                <small>Chelsea 0</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-12">
           <div class="card h-100">
-            <img src="teresa_perales.jpg" class="card-img-top" alt="Noticia 5">
+            <div class="ratio ratio-16x9">
+              <img src="cards noticias/teresa perales.jpg" class="card-img-top object-fit-cover" alt="Noticia 5">
+            </div>
             <div class="card-body d-flex flex-column justify-content-between">
               <div>
                 <small class="text-danger fw-bold d-block mb-1">PARALÍMPICOS</small>
                 <p class="fw-bold mb-2">Teresa Perales: “Todavía cuesta ver que los paralímpicos no somos los que cogen las sobras”</p>
               </div>
-              <a href="#" class="btn btn-link p-0 small">💬 16</a>
+              <a href="#" class="btn btn-link p-0 small align-self-start">💬 16</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-12">
           <div class="card h-100">
-            <img src="hansi_flick.jpg" class="card-img-top" alt="Noticia 6">
+            <div class="ratio ratio-16x9">
+              <img src="cards noticias/hansiflick.jpg" class="card-img-top object-fit-cover" alt="Noticia 6">
+            </div>
             <div class="card-body d-flex flex-column justify-content-between">
               <div>
                 <small class="text-danger fw-bold d-block mb-1">BARCELONA</small>
                 <p class="fw-bold mb-2">Hansi Flick manda un dardo al Real Madrid por el Balón de Oro</p>
               </div>
-              <a href="#" class="btn btn-link p-0 small">💬 647</a>
+              <a href="#" class="btn btn-link p-0 small align-self-start">💬 647</a>
             </div>
           </div>
         </div>
@@ -833,102 +877,489 @@
     </div>
     <div class="col-lg-3 d-none d-lg-block">
       <div class="h-100 d-flex justify-content-center">
-        <img src="cards noticias/publicidadlow.PNG" alt="Publicidad" class="img-fluid h-100" style="object-fit: cover;">
+        <img src="cards noticias/publicidadlow.PNG" alt="Publicidad" class="img-fluid h-100 object-fit-cover">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- SEGUNDO BLOQUE -->
+
+
+<!-- set1 tres cards sencillas -->
+<div class="container my-4">
+  <div class="row g-3">
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card h-100 d-flex flex-row">
+        <img src="cardsBLOQUE2/mbaaape.jpg" class="img-fluid" style="width: 40%; object-fit: cover;" alt="Noticia 1">
+        <div class="d-flex flex-column justify-content-between w-100">
+          <div class="card-body p-2">
+            <small class="text-danger fw-bold d-block mb-1">PREMIER LEAGUE</small>
+            <p class="fw-bold mb-0 small">
+              Mbappé se estrena con gol en el Arsenal pero no evita el empate contra el Liverpool
+            </p>
+          </div>
+          <div class="card-footer bg-white border-0 p-2 d-flex align-items-center">
+            <i class="bi bi-chat-left-text me-1"></i>
+            <a href="#" class="btn btn-link p-0 small">💬 98</a>
+          </div>
+        </div>
       </div>
     </div>
 
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card h-100 d-flex flex-row">
+        <img src="cardsBLOQUE2/fortyninter.png" class="img-fluid" style="width: 40%; object-fit: cover;" alt="Noticia 2">
+        <div class="d-flex flex-column justify-content-between w-100">
+          <div class="card-body p-2">
+            <small class="text-danger fw-bold d-block mb-1">NFL</small>
+            <p class="fw-bold mb-0 small">
+              Los 49ers de San Francisco inician la temporada con una contundente victoria sobre los Jets
+            </p>
+          </div>
+          <div class="card-footer bg-white border-0 p-2 d-flex align-items-center">
+            <i class="bi bi-chat-left-text me-1"></i>
+            <a href="#" class="btn btn-link p-0 small">💬 45</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card h-100 d-flex flex-row">
+        <img src="cardsBLOQUE2/carlosalcar.jpg" class="img-fluid" style="width: 40%; object-fit: cover;" alt="Noticia 3">
+        <div class="d-flex flex-column justify-content-between w-100">
+          <div class="card-body p-2">
+            <small class="text-danger fw-bold d-block mb-1">TENIS</small>
+            <p class="fw-bold mb-0 small">
+              Carlos Alcaraz avanza a la final del US Open tras un partido épico de cinco sets
+            </p>
+          </div>
+          <div class="card-footer bg-white border-0 p-2 d-flex align-items-center">
+            <i class="bi bi-chat-left-text me-1"></i>
+            <a href="#" class="btn btn-link p-0 small">💬 123</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <!-- mosaicos sin anuncion-->
- <div class="container my-4">
+<div class="container my-4">
   <div class="row g-3">
     <div class="col-md-4 col-sm-6 col-12">
       <div class="card h-100">
-        <img src="real_madrid.jpg" class="card-img-top" alt="Noticia 1">
+        <div class="ratio ratio-16x9">
+          <img src="cardsBLOQUE2/checoMOnz.jpg" class="card-img-top object-fit-cover" alt="Noticia 1">
+        </div>
         <div class="card-body d-flex flex-column justify-content-between">
           <div>
-            <small class="text-danger fw-bold d-block mb-1">REAL MADRID</small>
-            <p class="fw-bold mb-2">Xabi Alonso hace debutar a dos ‘fichajes’ de lujo</p>
+            <small class="text-danger fw-bold d-block mb-1">FÓRMULA 1</small>
+            <p class="fw-bold mb-2">Checo Pérez logra un podio crucial en Monza y afianza el subliderato</p>
           </div>
-          <a href="#" class="btn btn-link p-0 small">💬 6</a>
+          <a href="#" class="btn btn-link p-0 small align-self-start">💬 215</a>
         </div>
       </div>
     </div>
     <div class="col-md-4 col-sm-6 col-12">
-      <div class="card h-100 text-white" style="background:#111;">
-        <img src="leganes.jpg" class="card-img-top" alt="Leganés vs Las Palmas">
-        <div class="card-body d-flex flex-column justify-content-between">
-          <div>
-            <small class="fw-bold text-warning">LEGANÉS 0-0 LAS PALMAS</small>
-            <p class="fw-bold mb-1">Anulado el gol del Leganés</p>
-            <small>⏱ 1ª parte | LaLiga Hypermotion</small>
-            <div class="d-flex justify-content-between mt-1">
-              <small>Leganés 0</small>
-              <small>Las Palmas 0</small>
-            </div>
-          </div>
+      <div class="card h-100 text-white bg-dark">
+        <div class="ratio ratio-16x9">
+          <img src="cardsBLOQUE2/americhiv.jpg" class="card-img-top object-fit-cover" alt="América vs Chivas">
         </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6 col-12">
-      <div class="card h-100 text-white" style="background:#111;">
-        <img src="andorra.jpg" class="card-img-top" alt="Andorra vs Mirandés">
         <div class="card-body d-flex flex-column justify-content-between">
           <div>
-            <small class="fw-bold text-warning">ANDORRA 1-1 MIRANDÉS</small>
-            <p class="fw-bold mb-1">Andorra – Mirandés, en directo</p>
-            <small>⏱ 1ª parte | LaLiga Hypermotion</small>
-            <div class="d-flex justify-content-between mt-1">
-              <small>Andorra 1</small>
-              <small>Mirandés 1</small>
-            </div>
+            <small class="fw-bold text-warning">AMÉRICA 2-1 CHIVAS</small>
+            <p class="fw-bold mb-1">¡Gol de Zendejas! América toma la ventaja en el Clásico</p>
+            <small>⏱ 2ª parte | Liga MX</small>
+          </div>
+          <div class="d-flex justify-content-between mt-1">
+            <small>América 2</small>
+            <small>Chivas 1</small>
           </div>
         </div>
       </div>
     </div>
     <div class="col-md-4 col-sm-6 col-12">
-      <div class="card h-100 text-white" style="background:#111;">
-        <img src="man_united.jpg" class="card-img-top" alt="Man United vs Chelsea">
+      <div class="card h-100 text-white bg-dark">
+        <div class="ratio ratio-16x9">
+          <img src="cardsBLOQUE2/bayern.jpg" class="card-img-top object-fit-cover" alt="Bayern vs Dortmund">
+        </div>
         <div class="card-body d-flex flex-column justify-content-between">
           <div>
-            <small class="fw-bold text-warning">M. UNITED 2-0 CHELSEA</small>
-            <p class="fw-bold mb-1">Casemiro marca el segundo</p>
-            <small>⏱ 1ª parte | DAZN</small>
-            <div class="d-flex justify-content-between mt-1">
-              <small>Man United 2</small>
-              <small>Chelsea 0</small>
-            </div>
+            <small class="fw-bold text-warning">BAYERN M. 3-1 DORTMUND</small>
+            <p class="fw-bold mb-1">Harry Kane sentencia el 'Klassiker' con un doblete</p>
+            <small>⏱ Final | Bundesliga</small>
+          </div>
+          <div class="d-flex justify-content-between mt-1">
+            <small>Bayern M. 3</small>
+            <small>Dortmund 1</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card h-100 text-white bg-dark">
+        <div class="ratio ratio-16x9">
+          <img src="cardsBLOQUE2/cowboys.jpeg" class="card-img-top object-fit-cover" alt="Cowboys vs Giants">
+        </div>
+        <div class="card-body d-flex flex-column justify-content-between">
+          <div>
+            <small class="fw-bold text-warning">COWBOYS 24-17 GIANTS</small>
+            <p class="fw-bold mb-1">Dak Prescott conecta con CeeDee Lamb para el touchdown de la victoria</p>
+            <small>⏱ 4º Cuarto | NFL</small>
+          </div>
+          <div class="d-flex justify-content-between mt-1">
+            <small>Cowboys 24</small>
+            <small>Giants 17</small>
           </div>
         </div>
       </div>
     </div>
     <div class="col-md-4 col-sm-6 col-12">
       <div class="card h-100">
-        <img src="teresa_perales.jpg" class="card-img-top" alt="Noticia 5">
+        <div class="ratio ratio-16x9">
+          <img src="cardsBLOQUE2/caneaztec.jpg" class="card-img-top object-fit-cover" alt="Noticia 5">
+        </div>
         <div class="card-body d-flex flex-column justify-content-between">
           <div>
-            <small class="text-danger fw-bold d-block mb-1">PARALÍMPICOS</small>
-            <p class="fw-bold mb-2">Teresa Perales: “Todavía cuesta ver que los paralímpicos no somos los que cogen las sobras”</p>
+            <small class="text-danger fw-bold d-block mb-1">BOXEO</small>
+            <p class="fw-bold mb-2">Canelo Álvarez anuncia su próxima pelea para diciembre en el Estadio Azteca</p>
           </div>
-          <a href="#" class="btn btn-link p-0 small">💬 16</a>
+          <a href="#" class="btn btn-link p-0 small align-self-start">💬 782</a>
         </div>
       </div>
     </div>
     <div class="col-md-4 col-sm-6 col-12">
       <div class="card h-100">
-        <img src="hansi_flick.jpg" class="card-img-top" alt="Noticia 6">
+        <div class="ratio ratio-16x9">
+          <img src="cardsBLOQUE2/jaime.jpg" class="card-img-top object-fit-cover" alt="Noticia 6">
+        </div>
         <div class="card-body d-flex flex-column justify-content-between">
           <div>
-            <small class="text-danger fw-bold d-block mb-1">BARCELONA</small>
-            <p class="fw-bold mb-2">Hansi Flick manda un dardo al Real Madrid por el Balón de Oro</p>
+            <small class="text-danger fw-bold d-block mb-1">NBA</small>
+            <p class="fw-bold mb-2">Jaime Jáquez Jr. impresiona en la pretemporada con el Miami Heat</p>
           </div>
-          <a href="#" class="btn btn-link p-0 small">💬 647</a>
+          <a href="#" class="btn btn-link p-0 small align-self-start">💬 150</a>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<!-- set dos, card larga y 3 abajo -->
+<div class="container my-4">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="fs-4 fw-bold">Lo mejor del momento</h2>
+      <hr class="mb-3">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 mb-3">
+      <div class="card h-100">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="cardsBLOQUE2/GALAXY.jpg" class="img-fluid rounded-start w-100 h-100 object-fit-cover" alt="Noticia Larga">
+          </div>
+          <div class="col-md-8 d-flex">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h6 class="text-danger fw-bold">LIGA MX</h6>
+                <p class="card-text fs-4 fw-bold">
+                  ¡Histórico! La final de la Leagues Cup entre Pachuca y LA Galaxy se jugará en el Estadio Azteca
+                </p>
+              </div>
+              <a href="#" class="btn btn-link align-self-start">💬 432</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="cardsBLOQUE2/lesionmahon.jpg" class="card-img-top object-fit-cover" alt="Noticia 1">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <div>
+            <h6 class="text-danger fw-bold">NFL</h6>
+            <p class="card-text fs-5 fw-bold">
+              Patrick Mahomes sufre lesión en el tobillo; se encienden las alarmas en Kansas City
+            </p>
+          </div>
+          <a href="#" class="btn btn-link align-self-start">💬 189</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="cardsBLOQUE2/randy.jpeg" class="card-img-top object-fit-cover" alt="Noticia 2">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <div>
+            <h6 class="text-danger fw-bold">BÉISBOL</h6>
+            <p class="card-text fs-5 fw-bold">
+              Randy Arozarena conecta dos jonrones en la victoria de los Rays sobre los Yankees
+            </p>
+          </div>
+          <a href="#" class="btn btn-link align-self-start">💬 76</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="cardsBLOQUE2/barcaempate.jpeg" class="card-img-top object-fit-cover" alt="Noticia 3">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <div>
+            <h6 class="text-danger fw-bold">UEFA CHAMPIONS LEAGUE</h6>
+            <p class="card-text fs-5 fw-bold">
+              Barcelona empata de último minuto contra el Bayern Munich en un partido dramático
+            </p>
+          </div>
+          <a href="#" class="btn btn-link align-self-start">💬 351</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- slider con anuncios -->
+<div class="container my-4">
+  <div class="row g-3 align-items-stretch">
+
+    <div class="col-lg-2 d-none d-lg-block">
+      <div class="card h-100">
+        <img src="cards noticias/GIF1.gif" class="card-img-top h-100 object-fit-cover" alt="AnuncioIzq">
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-8">
+      <div class="row g-3 align-items-stretch">
+
+        <div class="col-12 col-md-8">
+          <div class="row g-3">
+
+            <div class="col-12">
+              <div id="newsCarousel-2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <div class="ratio ratio-4x3">
+                      <img src="cardsBLOQUE2/ilia.jpeg" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia1">
+                    </div>
+                    <div class="carousel-caption bg-dark bg-opacity-50 text-white text-start p-2 bottom-0 start-0 end-0">
+                      <h6 class="fw-bold mb-1 small">UFC 320</h6>
+                      <p class="mb-0 fw-bold small">Ilia Topuria defiende su título de peso pluma con un KO espectacular.</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="ratio ratio-4x3">
+                      <img src="cardsBLOQUE2/scottie.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia2">
+                    </div>
+                    <div class="carousel-caption bg-dark bg-opacity-50 text-white text-start p-2 bottom-0 start-0 end-0">
+                      <h6 class="fw-bold mb-1 small">GOLF</h6>
+                      <p class="mb-0 fw-bold small">Scottie Scheffler gana el Tour Championship y se lleva la FedEx Cup.</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="ratio ratio-4x3">
+                      <img src="cardsBLOQUE2/tadej.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia3">
+                    </div>
+                    <div class="carousel-caption bg-dark bg-opacity-50 text-white text-start p-2 bottom-0 start-0 end-0">
+                      <h6 class="fw-bold mb-1 small">CICLISMO</h6>
+                      <p class="mb-0 fw-bold small">Tadej Pogačar conquista la Vuelta a España por segunda vez en su carrera.</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel-2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel-2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="card h-100">
+                <div class="ratio ratio-4x3">
+                  <img src="cardsBLOQUE2/lions.jpg" class="card-img-top object-fit-cover" alt="Noticia extra 1">
+                </div>
+                <div class="card-body p-2 d-flex flex-column justify-content-between">
+                    <div>
+                        <h6 class="text-danger fw-bold mb-1">NFL</h6>
+                        <p class="card-text fw-bold small mb-1">Los Lions sorprenden a los campeones Chiefs en el partido inaugural.</p>
+                    </div>
+                    <a href="#" class="btn btn-link p-0 small align-self-start">💬 189</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card h-100">
+                <div class="ratio ratio-4x3">
+                  <img src="cardsBLOQUE2/julio.jpeg" class="card-img-top object-fit-cover" alt="Noticia extra 2">
+                </div>
+                <div class="card-body p-2 d-flex flex-column justify-content-between">
+                    <div>
+                        <h6 class="text-danger fw-bold mb-1">BÉISBOL</h6>
+                        <p class="card-text fw-bold small mb-1">Julio Urías lanza juego sin hit ni carrera contra los Giants.</p>
+                    </div>
+                    <a href="#" class="btn btn-link p-0 small align-self-start">💬 240</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex flex-column gap-3">
+          <div class="card h-100 d-flex flex-column">
+            <div class="d-none d-md-block ratio ratio-4x3">
+              <img src="cardsBLOQUE2/rovanpera.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia4">
+            </div>
+            <div class="d-block d-md-none ratio ratio-21x9">
+              <img src="cardsBLOQUE2/rovanpera.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia4">
+            </div>
+            <div class="card-body mt-auto py-2 d-flex flex-column justify-content-between">
+              <div>
+                <h6 class="text-danger fw-bold mb-1">WRC</h6>
+                <p class="card-text fw-bold small mb-1">Rovanperä se corona campeón del mundo de rallies por tercer año consecutivo.</p>
+              </div>
+              <a href="#" class="btn btn-link p-0 small align-self-start">💬 55</a>
+            </div>
+          </div>
+          <div class="card h-100 d-flex flex-column">
+            <div class="d-none d-md-block ratio ratio-4x3">
+              <img src="cardsBLOQUE2/volibolfem.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia5">
+            </div>
+            <div class="d-block d-md-none ratio ratio-21x9">
+              <img src="cardsBLOQUE2/volibolfem.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Noticia5">
+            </div>
+            <div class="card-body mt-auto py-2 d-flex flex-column justify-content-between">
+              <div>
+                <h6 class="text-danger fw-bold mb-1">VOLEIBOL</h6>
+                <p class="card-text fw-bold small mb-1">México clasifica al Mundial Femenino por primera vez en 40 años.</p>
+              </div>
+              <a href="#" class="btn btn-link p-0 small align-self-start">💬 312</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 d-none d-lg-block">
+      <div class="card h-100">
+        <img src="cards noticias/GIF2.gif" class="card-img-top h-100 object-fit-cover" alt="AnuncioDer">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- footer-->
+<footer class="mt-5">
+  <div class="bg-dark text-white py-4 d-none d-md-block">
+    <div class="container">
+      <h6 class="fw-bold mb-3 text-center">Otras webs de Unidad Editorial</h6>
+      <hr class="border-secondary">
+
+      <div class="row">
+        <div class="col-md-3">
+          <h6 class="fw-bold">Resultados deportivos</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-white text-decoration-none">Clasificación LALIGA</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Calendario LALIGA</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Clasificación Segunda</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Calendario Champions</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Calendario F1</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Calendario MotoGP</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h6 class="fw-bold">Información deportiva</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-white text-decoration-none">LaLiga EA SPORTS</a></li>
+            <li><a href="#" class="text-white text-decoration-none">LaLiga Hypermotion</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Liga F</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Champions League</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Fórmula 1</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Gaming</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h6 class="fw-bold">Ocio y entretenimiento</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-white text-decoration-none">Tiramillas</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Bienestar</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Loterías</a></li>
+            <li><a href="#" class="text-white text-decoration-none">CuídatePlus</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Traductor El Mundo</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h6 class="fw-bold">Unidad Editorial</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-white text-decoration-none">Unidad Editorial</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Expansión</a></li>
+            <li><a href="#" class="text-white text-decoration-none">El Mundo</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Telva</a></li>
+            <li><a href="#" class="text-white text-decoration-none">El Mundo América</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Diario Médico</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Conversor de moneda</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-light py-3">
+    <div class="container text-center">
+
+      <small class="d-block mb-2">
+        © <strong>Unidad Editorial Información Deportiva, S.L.U.</strong> Todos los derechos reservados.
+        <span class="text-muted">Desarrollado por Manuel y Said</span>
+      </small>
+
+      <div class="mb-2 small d-none d-md-block">
+        <a href="#" class="text-dark text-decoration-none me-2">Política de cookies</a>
+        <a href="#" class="text-dark text-decoration-none me-2">Política de privacidad</a>
+        <a href="#" class="text-dark text-decoration-none me-2">Términos y condiciones</a>
+        <a href="#" class="text-dark text-decoration-none me-2">Política de minería de datos</a>
+        <a href="#" class="text-dark text-decoration-none me-2">Sección transparencia</a>
+        <a href="#" class="text-dark text-decoration-none me-2">Certificado OJD</a>
+        <a href="#" class="text-dark text-decoration-none me-2">Contacto</a>
+        <a href="#" class="text-dark text-decoration-none">Publicidad</a>
+      </div>
+
+      <div class="mt-3 d-flex flex-column align-items-center">
+        <span class="mb-2">Síguenos en</span>
+        <div class="d-flex align-items-center">
+          <a href="#" class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle me-2" style="width: 40px; height: 40px;" aria-label="Facebook">
+            <img src="footer/facebook.png" class="img-fluid" style="width: 20px;">
+          </a>
+          <a href="#" class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle me-2" style="width: 40px; height: 40px;" aria-label="X">
+            <img src="footer/x.png" class="img-fluid" style="width: 20px;">
+          </a>
+          <a href="#" class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle me-2" style="width: 40px; height: 40px;" aria-label="Instagram">
+            <img src="footer/insta.png" class="img-fluid" style="width: 20px;">
+          </a>
+          <a href="#" class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 40px; height: 40px;" aria-label="YouTube">
+            <img src="footer/youtube.png" class="img-fluid" style="width: 20px;">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
