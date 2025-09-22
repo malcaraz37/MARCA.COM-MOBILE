@@ -78,7 +78,6 @@
   </div>
 </div>
 
-<!-- Navbar con hamburguesa -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
   <div class="container d-flex align-items-center">
     <a class="navbar-brand" href="#"><img src="elementosNAV/logomarcablanco.png" alt="logo" height="40"></a>
@@ -88,176 +87,93 @@
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="mx-auto navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
 
-        <!-- Fútbol -->
         <li class="nav-item dropdown">
           <a class="text-white nav-link dropdown-toggle" href="#" id="futbolMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Fútbol
           </a>
-          <div class="dropdown-menu bg-dark p-4 border-0 shadow" aria-labelledby="futbolMenu" style="min-width:950px;">
-            <div class="row text-white">
-
-              <!-- Columna España -->
-              <div class="col-lg-3 col-md-6">
-                <h6 class="fw-bold border-bottom pb-1">España</h6>
-                <a class="dropdown-item text-white" href="#">LaLiga EA Sports</a>
-                <a class="dropdown-item text-white" href="#">Liga F</a>
-                <a class="dropdown-item text-white" href="#">LaLiga Hypermotion</a>
-                <a class="dropdown-item text-white" href="#">Primera Federación</a>
-                <a class="dropdown-item text-white" href="#">Segunda Federación</a>
-                <a class="dropdown-item text-white" href="#">Tercera Federación</a>
-                <a class="dropdown-item text-white" href="#">Copa del Rey</a>
-                <a class="dropdown-item text-white" href="#">Supercopa de España</a>
+          <div class="dropdown-menu bg-dark p-4 border-0 shadow" aria-labelledby="futbolMenu">
+            <div class="d-none d-lg-block" style="width: 900px;">
+              <div class="row text-white">
+                <div class="col-3"><h6 class="fw-bold border-bottom pb-1">España</h6><a class="dropdown-item text-white" href="#">LaLiga EA Sports</a><a class="dropdown-item text-white" href="#">Liga F</a><a class="dropdown-item text-white" href="#">LaLiga Hypermotion</a><a class="dropdown-item text-white" href="#">Copa del Rey</a></div>
+                <div class="col-3"><h6 class="fw-bold border-bottom pb-1">Internacional</h6><a class="dropdown-item text-white" href="#">Premier League</a><a class="dropdown-item text-white" href="#">Bundesliga</a><a class="dropdown-item text-white" href="#">Serie A</a><a class="dropdown-item text-white" href="#">MLS</a></div>
+                <div class="col-3"><h6 class="fw-bold border-bottom pb-1">Competiciones</h6><a class="dropdown-item text-white" href="#">Champions League</a><a class="dropdown-item text-white" href="#">Europa League</a><a class="dropdown-item text-white" href="#">Conference League</a></div>
+                <div class="col-3"><h6 class="fw-bold border-bottom pb-1">América</h6><a class="dropdown-item text-white" href="#">Argentina</a><a class="dropdown-item text-white" href="#">Brasil</a><a class="dropdown-item text-white" href="#">México</a><a class="dropdown-item text-white" href="#">Leagues Cup</a></div>
               </div>
-
-              <!-- Columna Internacional -->
-              <div class="col-lg-3 col-md-6">
-                <h6 class="fw-bold border-bottom pb-1">Internacional</h6>
-                <a class="dropdown-item text-white" href="#">Premier League</a>
-                <a class="dropdown-item text-white" href="#">Bundesliga</a>
-                <a class="dropdown-item text-white" href="#">Serie A</a>
-                <a class="dropdown-item text-white" href="#">Ligue 1</a>
-                <a class="dropdown-item text-white" href="#">Liga Saudí</a>
-                <a class="dropdown-item text-white" href="#">Primeira Liga Portugal</a>
-                <a class="dropdown-item text-white" href="#">MLS</a>
-              </div>
-
-              <!-- Columna Competiciones -->
-              <div class="col-lg-3 col-md-6">
-                <h6 class="fw-bold border-bottom pb-1">Competiciones</h6>
-                <a class="dropdown-item text-white" href="#">Champions League</a>
-                <a class="dropdown-item text-white" href="#">Champions League femenina</a>
-                <a class="dropdown-item text-white" href="#">Europa League</a>
-                <a class="dropdown-item text-white" href="#">Conference League</a>
-                <a class="dropdown-item text-white" href="#">Youth League</a>
-                <a class="dropdown-item text-white" href="#">Supercopa de Europa</a>
-                <a class="dropdown-item text-white" href="#">Mundial de Clubes</a>
-              </div>
-
-              <!-- Columna América -->
-              <div class="col-lg-3 col-md-6">
-                <h6 class="fw-bold border-bottom pb-1">América</h6>
-                <a class="dropdown-item text-white" href="#">Argentina</a>
-                <a class="dropdown-item text-white" href="#">Brasil</a>
-                <a class="dropdown-item text-white" href="#">Chile</a>
-                <a class="dropdown-item text-white" href="#">Colombia</a>
-                <a class="dropdown-item text-white" href="#">México</a>
-                <a class="dropdown-item text-white" href="#">Estados Unidos</a>
-                <a class="dropdown-item text-white" href="#">Leagues Cup</a>
-              </div>
+            </div>
+            <div class="d-lg-none">
+              <a class="dropdown-item text-white" href="#">LaLiga EA Sports</a><a class="dropdown-item text-white" href="#">Liga F</a><a class="dropdown-item text-white" href="#">LaLiga Hypermotion</a><a class="dropdown-item text-white" href="#">Copa del Rey</a><a class="dropdown-item text-white" href="#">Premier League</a><a class="dropdown-item text-white" href="#">Bundesliga</a><a class="dropdown-item text-white" href="#">Serie A</a><a class="dropdown-item text-white" href="#">MLS</a><a class="dropdown-item text-white" href="#">Champions League</a><a class="dropdown-item text-white" href="#">Europa League</a><a class="dropdown-item text-white" href="#">Conference League</a><a class="dropdown-item text-white" href="#">Argentina</a><a class="dropdown-item text-white" href="#">Brasil</a><a class="dropdown-item text-white" href="#">México</a><a class="dropdown-item text-white" href="#">Leagues Cup</a>
             </div>
           </div>
         </li>
 
-        <!-- Baloncesto -->
         <li class="nav-item dropdown">
           <a class="text-white nav-link dropdown-toggle" href="#" id="basketMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Baloncesto
           </a>
-          <div class="dropdown-menu bg-dark p-4 border-0 shadow" aria-labelledby="basketMenu" style="min-width:600px;">
-            <div class="row text-white">
-              <div class="col-lg-6">
-                <h6 class="fw-bold border-bottom pb-1">Europa</h6>
-                <a class="dropdown-item text-white" href="#">Euroliga</a>
-                <a class="dropdown-item text-white" href="#">Liga Endesa</a>
-                <a class="dropdown-item text-white" href="#">Eurocup</a>
-                <a class="dropdown-item text-white" href="#">FIBA Champions League</a>
+          <div class="dropdown-menu bg-dark p-4 border-0 shadow" aria-labelledby="basketMenu">
+            <div class="d-none d-lg-block" style="width: 550px;">
+              <div class="row text-white">
+                <div class="col-6"><h6 class="fw-bold border-bottom pb-1">Europa</h6><a class="dropdown-item text-white" href="#">Euroliga</a><a class="dropdown-item text-white" href="#">Liga Endesa</a><a class="dropdown-item text-white" href="#">Eurocup</a></div>
+                <div class="col-6"><h6 class="fw-bold border-bottom pb-1">América</h6><a class="dropdown-item text-white" href="#">NBA</a><a class="dropdown-item text-white" href="#">WNBA</a><a class="dropdown-item text-white" href="#">Liga ACB México</a></div>
               </div>
-              <div class="col-lg-6">
-                <h6 class="fw-bold border-bottom pb-1">América</h6>
-                <a class="dropdown-item text-white" href="#">NBA</a>
-                <a class="dropdown-item text-white" href="#">WNBA</a>
-                <a class="dropdown-item text-white" href="#">Liga ACB México</a>
-                <a class="dropdown-item text-white" href="#">Selecciones FIBA</a>
-              </div>
+            </div>
+            <div class="d-lg-none">
+              <a class="dropdown-item text-white" href="#">Euroliga</a><a class="dropdown-item text-white" href="#">Liga Endesa</a><a class="dropdown-item text-white" href="#">Eurocup</a><a class="dropdown-item text-white" href="#">NBA</a><a class="dropdown-item text-white" href="#">WNBA</a><a class="dropdown-item text-white" href="#">Liga ACB México</a>
             </div>
           </div>
         </li>
 
-        <!-- Motor -->
         <li class="nav-item dropdown">
           <a class="text-white nav-link dropdown-toggle" href="#" id="motorMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Motor
           </a>
-          <div class="dropdown-menu bg-dark p-4 border-0 shadow" aria-labelledby="motorMenu" style="min-width:500px;">
-            <div class="row text-white">
-              <div class="col-lg-6">
-                <h6 class="fw-bold border-bottom pb-1">Automovilismo</h6>
-                <a class="dropdown-item text-white" href="#">Fórmula 1</a>
-                <a class="dropdown-item text-white" href="#">Fórmula 2</a>
-                <a class="dropdown-item text-white" href="#">WRC</a>
+          <div class="dropdown-menu bg-dark p-4 border-0 shadow" aria-labelledby="motorMenu">
+            <div class="d-none d-lg-block" style="width: 450px;">
+              <div class="row text-white">
+                <div class="col-6"><h6 class="fw-bold border-bottom pb-1">Automovilismo</h6><a class="dropdown-item text-white" href="#">Fórmula 1</a><a class="dropdown-item text-white" href="#">WRC</a></div>
+                <div class="col-6"><h6 class="fw-bold border-bottom pb-1">Motociclismo</h6><a class="dropdown-item text-white" href="#">MotoGP</a><a class="dropdown-item text-white" href="#">Moto2</a></div>
               </div>
-              <div class="col-lg-6">
-                <h6 class="fw-bold border-bottom pb-1">Motociclismo</h6>
-                <a class="dropdown-item text-white" href="#">MotoGP</a>
-                <a class="dropdown-item text-white" href="#">Moto2</a>
-                <a class="dropdown-item text-white" href="#">Moto3</a>
-              </div>
+            </div>
+            <div class="d-lg-none">
+              <a class="dropdown-item text-white" href="#">Fórmula 1</a><a class="dropdown-item text-white" href="#">WRC</a><a class="dropdown-item text-white" href="#">MotoGP</a><a class="dropdown-item text-white" href="#">Moto2</a>
             </div>
           </div>
         </li>
 
-        <!-- Polideportivo -->
         <li class="nav-item dropdown">
           <a class="text-white nav-link dropdown-toggle" href="#" id="poliMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Polideportivo
           </a>
-          <div class="dropdown-menu bg-dark p-4 border-0 shadow" aria-labelledby="poliMenu" style="min-width:500px;">
-            <div class="row text-white">
-              <div class="col-lg-6">
-                <h6 class="fw-bold border-bottom pb-1">Deportes</h6>
-                <a class="dropdown-item text-white" href="#">Atletismo</a>
-                <a class="dropdown-item text-white" href="#">Tenis</a>
-                <a class="dropdown-item text-white" href="#">Golf</a>
+          <div class="dropdown-menu bg-dark p-4 border-0 shadow" aria-labelledby="poliMenu">
+            <div class="d-none d-lg-block" style="width: 450px;">
+              <div class="row text-white">
+                <div class="col-6"><h6 class="fw-bold border-bottom pb-1">Deportes</h6><a class="dropdown-item text-white" href="#">Atletismo</a><a class="dropdown-item text-white" href="#">Tenis</a><a class="dropdown-item text-white" href="#">Golf</a></div>
+                <div class="col-6"><h6 class="fw-bold border-bottom pb-1">Otros</h6><a class="dropdown-item text-white" href="#">Ciclismo</a><a class="dropdown-item text-white" href="#">Natación</a><a class="dropdown-item text-white" href="#">Boxeo</a></div>
               </div>
-              <div class="col-lg-6">
-                <h6 class="fw-bold border-bottom pb-1">Otros</h6>
-                <a class="dropdown-item text-white" href="#">Ciclismo</a>
-                <a class="dropdown-item text-white" href="#">Natación</a>
-                <a class="dropdown-item text-white" href="#">Boxeo</a>
-              </div>
+            </div>
+            <div class="d-lg-none">
+              <a class="dropdown-item text-white" href="#">Atletismo</a><a class="dropdown-item text-white" href="#">Tenis</a><a class="dropdown-item text-white" href="#">Golf</a><a class="dropdown-item text-white" href="#">Ciclismo</a><a class="dropdown-item text-white" href="#">Natación</a><a class="dropdown-item text-white" href="#">Boxeo</a>
             </div>
           </div>
         </li>
 
-        <!-- Coches -->
-        <li class="nav-item dropdown">
-          <a class="text-white nav-link dropdown-toggle" href="#" id="cochesMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Coches
-          </a>
-          <div class="dropdown-menu bg-dark p-4 border-0 shadow" aria-labelledby="cochesMenu" style="min-width:400px;">
-            <div class="row text-white">
-              <div class="col-12">
-                <h6 class="fw-bold border-bottom pb-1">Secciones</h6>
-                <a class="dropdown-item text-white" href="#">Novedades</a>
-                <a class="dropdown-item text-white" href="#">Comparativas</a>
-                <a class="dropdown-item text-white" href="#">Pruebas</a>
-                <a class="dropdown-item text-white" href="#">Eléctricos</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-        <!-- Más+ -->
         <li class="nav-item dropdown">
           <a class="nav-link text-white dropdown-toggle" href="#" id="masMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Más+
           </a>
-          <div class="dropdown-menu bg-dark p-4 border-0 shadow" aria-labelledby="masMenu" style="min-width:400px;">
-            <div class="row text-white">
-              <div class="col-12">
-                <h6 class="fw-bold border-bottom pb-1">Secciones extra</h6>
+          <div class="dropdown-menu bg-dark p-4 border-0 shadow" aria-labelledby="masMenu">
+            <div style="width: 350px;">
+                <h6 class="fw-bold border-bottom pb-1 text-white">Secciones extra</h6>
                 <a class="dropdown-item text-white" href="#">Agenda TV</a>
                 <a class="dropdown-item text-white" href="#">E-Sports</a>
                 <a class="dropdown-item text-white" href="#">Tennis</a>
                 <a class="dropdown-item text-white" href="#">Golf</a>
                 <a class="dropdown-item text-white" href="#">Más deportes</a>
-              </div>
             </div>
           </div>
         </li>
       </ul>
 
-      <!-- Buscador -->
       <form class="d-flex mt-2 mt-lg-0" role="search">
         <input class="form-control me-2" type="search" placeholder="Buscar 🔎" aria-label="Search" />
       </form>
